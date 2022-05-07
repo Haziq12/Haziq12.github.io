@@ -2140,7 +2140,7 @@ input, select, textarea {
 
 			.image.avatar img {
 				border-radius: 100%;
-				width: 100%;
+				width: 120%;
 			}
 
 /* List */
@@ -2193,6 +2193,7 @@ input, select, textarea {
 	}
 
 		ul.icons li {
+			margin-bottom: 20px;
 			display: inline-block;
 			padding: 0 1em 0 0;
 		}
@@ -2202,7 +2203,8 @@ input, select, textarea {
 			}
 
 			ul.icons li .icon:before {
-				font-size: 1.5em;
+				/* font-size: 1.5em; */
+				font-size: 35px;
 			}
 
 /* Labeled Icons */
@@ -2590,7 +2592,7 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		/* background-image: url("images/overlay.png"), url("../../images/bg.jpg"); */
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
@@ -2601,7 +2603,7 @@ input, select, textarea {
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 35%;
+		width: 25%;
 	}
 
 		#header > * {
@@ -2679,7 +2681,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		margin-left: 35%;
+		margin-left: 25%;
 		max-width: 54em;
 		padding: 8em 4em 4em 4em;
 		width: calc(100% - 35%);
