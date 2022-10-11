@@ -78,7 +78,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #fff;
+		background: rgb(130, 130, 205);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -93,7 +93,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #a2a2a2;
+		color: white;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -106,7 +106,7 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #49bf9d;
+		color: white; 
 		text-decoration: none;
 	}
 
@@ -127,10 +127,11 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+		color: white;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #787878;
+		color: white;
 		font-weight: 400;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -147,6 +148,7 @@ input, select, textarea {
 	}
 
 	h2 {
+		color: white;
 		font-size: 1.5em;
 		line-height: 1.5em;
 	}
@@ -2445,7 +2447,7 @@ input, select, textarea {
 		background-color: transparent;
 		border-radius: 0.35em;
 		border: solid 3px #efefef;
-		color: #787878 !important;
+		/* color: #787878 !important; */
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 400;
@@ -2463,8 +2465,8 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: black;
+			color: black !important;
 		}
 
 		input[type="submit"]:active,
@@ -2590,7 +2592,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background-color: #1f1815;
+		background-color: #29201d;
 		background-attachment: scroll,								scroll;
 		/* background-image: url("images/overlay.png"), url("../../images/bg.jpg"); */
 		background-position: top left,							top left;
